@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Anjali!</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ffafbd, #ffc3a0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ff6347;
+            font-size: 3em;
+        }
+        h2 {
+            color: #ff6347;
+            font-size: 2em;
+        }
+        p {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .balloons {
+            margin-top: 20px;
+        }
+        .balloons img {
+            width: 150px;
+            margin: 0 10px;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #ff6347;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, ANJALI!</h1>
+        <h2>🎉 Wishing you all the best! 🎉</h2>
+        <p>May your day be filled with love, laughter, and endless joy!</p>
+
+        <div class="balloons">
+            <img src="D:\java programs\WhatsApp Image 2024-10-18 at 18.53.32_eb34879f.jpg" alt="Balloon">
+            <img src="D:\java programs\WhatsApp Image 2024-10-18 at 18.53.29_b9dfb445.jpg" alt="Balloon">
+        </div>
+
+        <button onclick="openNewPage()">Click for a Surprise!</button>
+    </div>
+
+    <script>
+        function openNewPage() {
+            window.location.href = "birthday_wishes.html"; // Redirect to the new page
+        }
+    </script>
+</body>
+</html>
